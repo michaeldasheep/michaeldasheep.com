@@ -9,7 +9,7 @@ steps:
     PASSWORD:
       from_secret: password
   settings:
-    registry: git.20080608.xyz
+    registry: true
     email: michael@michaeldasheep.com
     username: sheep
     password:
