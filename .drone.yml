@@ -7,6 +7,6 @@ steps:
   image: plugins/docker
   settings:
     email: michael@michaeldasheep.com
-    registry: http://git.20080608.xyz:5000
-    repo: git.20080608.xyz:5000/sheep/michaeldasheep.com
+    registry: registry.20080608.xyz:5000
+    repo: registry.20080608.xyz:5000/sheep/michaeldasheep.com
     tags: latest
