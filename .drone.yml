@@ -11,5 +11,5 @@ steps:
     username: sheep
     password:
       from_secret: password
-    repo: git.20080608.xyz/sheep/michaeldasheep.com
+    repo: git.20080608.xyz/sheep/michaeldasheep.coms
     tags: latest
