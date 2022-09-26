@@ -9,7 +9,6 @@ steps:
     PASSWORD:
       from_secret: password
   settings:
-    registry: true
     email: michael@michaeldasheep.com
     username: sheep
     password:
