@@ -5,13 +5,11 @@ name: default
 steps:
 - name: docker  
   image: plugins/docker
-  environment:
-    PASSWORD:
-      from_secret: password
   settings:
     email: michael@michaeldasheep.com
+    registry: git.20080608.xyz
     username: sheep
     password:
-      from_secret: docker_password
+      from_secret: password
     repo: git.20080608.xyz/sheep/michaeldasheep.com
     tags: latest
