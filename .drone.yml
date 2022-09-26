@@ -9,4 +9,4 @@ steps:
     email: michael@michaeldasheep.com
     registry: registry.20080608.xyz
     repo: registry.20080608.xyz/sheep/michaeldasheep.com
-    tags: latest
+    tags: $VERSION
