@@ -1,0 +1,18 @@
+---
+kind: pipeline
+name: default
+
+steps:
+- name: docker  
+  image: plugins/docker
+  environment:
+    PASSWORD:
+      from_secret: password
+  settings:
+    registry: git.20080608.xyz
+    email: michael@michaeldasheep.com
+    username: sheep
+    password:
+      from_secret: docker_password
+    repo: sheep/michaeldasheep.com
+    tags: latest
