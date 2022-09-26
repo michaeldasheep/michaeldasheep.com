@@ -8,5 +8,5 @@ steps:
   settings:
     email: michael@michaeldasheep.com
     registry: http://git.20080608.xyz:5000
-    repo: http://git.20080608.xyz:5000/sheep/michaeldasheep.com
+    repo: git.20080608.xyz:5000/sheep/michaeldasheep.com
     tags: latest
