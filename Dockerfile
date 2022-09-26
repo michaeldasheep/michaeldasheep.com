@@ -1,4 +1,4 @@
-FROM debian:bullseye
+FROM ubuntu:jammy
 RUN mkdir /sites
 RUN mkdir /config
 RUN mkdir /html
