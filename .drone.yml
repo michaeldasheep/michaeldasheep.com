@@ -9,5 +9,5 @@ steps:
     username: michaeldasheep
     password:
       from_secret: docker-hub-password
-    tags: first-release-do-not-use-history
+    tags: donotusethisimage1
     dockerfile: ./Dockerfile
