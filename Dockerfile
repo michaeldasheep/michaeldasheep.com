@@ -13,6 +13,7 @@ RUN apt install nginx apache2-utils curl php7.4-fpm -y
 COPY ./conf/nginxconf /etc/nginx
 COPY ./conf/sites /sites
 COPY ./html /html
+# HACK TO ADD LOGS TO STANDARD OUT (STDOUT)
 RUN ln -sf /dev/stdout /logs/access.log
 RUN ln -sf /dev/stderr /logs/error.log
 EXPOSE 80
