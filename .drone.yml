@@ -6,7 +6,8 @@ steps:
 - name: docker  
   image: plugins/docker
   settings:
-    email: michael@michaeldasheep.com
-    registry: registry.20080608.xyz
-    repo: registry.20080608.xyz/sheep/michaeldasheep.com
-    tags: ${cversion}
+    username: michaeldasheep
+    password:
+      from_secret: docker-hub-password
+    tags: first-release-do-not-use-history
+    dockerfile: ./Dockerfile
