@@ -10,5 +10,5 @@ steps:
     password:
       from_secret: docker-hub-password
     repo: michaeldasheep/michaeldasheep.com
-    tags: donotusethisimageone
+    tags: {$IMAGETAG}
     dockerfile: ./Dockerfile
