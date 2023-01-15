@@ -9,5 +9,6 @@ steps:
     username: michaeldasheep
     password:
       from_secret: docker-hub-password
-    tags: donotuseone
+    repo: michaeldasheep/michaeldasheep.com
+    tags: donotusethisimageone
     dockerfile: ./Dockerfile
