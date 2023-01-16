@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ~/kubernetes-manifests
+cd ~/outer-kubernetes
 echo
 kubectl delete -f michaeldasheep.com
 echo
