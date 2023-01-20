@@ -9,7 +9,7 @@ RUN touch access.log
 RUN touch error.log
 RUN apt update
 RUN apt upgrade -y
-RUN apt install nginx apache2-utils curl php7.4-fpm -y
+RUN DEBIAN_FRONTEND=noninteractive apt install nginx apache2-utils curl php7.4-fpm -y >/dev/null
 COPY ./conf/nginxconf /etc/nginx
 COPY ./conf/sites /sites
 COPY ./html /html
