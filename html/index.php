@@ -10,8 +10,11 @@
         </style>
     </head>
     <body>
-        <h1>This is https://michaeldasheep.com</h1><br>
-        <p>If this works, then your internet is working.</p>
-        <p>Website coming soon.</p>
+        <?php include 'includes/nav.php' ?>
+        <div class="navbar">
+            <div style="display: inline-block">
+                <h3 style="font-family: Arial, Helvetica, sans-serif;">michaeldasheep.com</h3>
+            </div>
+        </div>
     </body>
 </html>
